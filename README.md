@@ -2,7 +2,7 @@
 
 This repository contains the Python Notebook file that I have created as part of my Master's thesis "Deep Learning for Differential Diagnosis and Prediction in EHR Data" from WeST at the University of Koblenz-Landau.
  
-The thesis was supervised by Prof. Dr. Matthias Thimm and Dr. Zeyd Boukhers. This repo was made by [Prantik Goswami](https://scholar.google.com/citations?user=ei5YCgcAAAAJ).
+The thesis was supervised by [Prof. Dr. Matthias Thimm](https://www.mthimm.de/) and [Dr. Zeyd Boukhers](https://zeyd.boukhers.com/). This repo was made by [Prantik Goswami](https://scholar.google.com/citations?user=ei5YCgcAAAAJ).
 
 The notebook file contains the Python code for the topic model, *KG-MultiResCNN*, which uses raw clinical text to predict ICD (ICD-9) codes related to the text. The model uses additional knowledge for medically enriching entities along with word embedding. The concatenated embeddings then pass through a multi-filter Convolution Neural Network followed by a series of two ResNet blocks. The model is equipped with a label attention layer for better prediction. Finally, a fully connected layer provides the output prediction.
 
