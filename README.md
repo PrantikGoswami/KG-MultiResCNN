@@ -28,7 +28,11 @@ The following packages are required to be pre-installed for the project.
 In this thesis, [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) v1.4 data is used. The data can be downloaded for research purposes only. A data protection agreement is required to access the data. More details can be found on the website.  
 
 ## Reproduce Results
-
+-----
+1. Prepare data
+2. Prepare KG-Embedding
+3. Train and test using full MIMIC-III data
+4. Train and test using top-50 MIMIC-III data
 
 
 ## Acknowledgements
