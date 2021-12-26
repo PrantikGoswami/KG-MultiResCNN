@@ -29,7 +29,7 @@ In this thesis, [MIMIC-III](https://physionet.org/content/mimiciii/1.4/) v1.4 da
 
 ## Reproduce Results
 -----
-1. Prepare data
+1. Prepare data \n
 -Download the MIMIC-III full data and store it into a repository.
 -Set the downloaded repository path to the 'args' dictionary with key 'origin_path'.
 -Unzip to get these necessary files: 'DIAGNOSES_ICD.csv', 'PROCEDURES_ICD.csv,' and 'NOTEEVENTS.csv' files.
